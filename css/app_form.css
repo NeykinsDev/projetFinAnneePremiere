@@ -1,0 +1,87 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: #fffcf2;
+}
+
+.container{
+    margin: auto;
+    width: 768px;
+    min-height:1200px;
+    box-sizing: border-box;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    width: 100%;
+    color: white;
+    background-color: rgb(247, 136, 9);
+    font-size: 1.9rem;
+    line-height: 6rem;
+    margin: 0px;
+    padding: 12px 0px 12px 12px;
+
+}
+
+form{
+    width: 100%;
+    background-color: rgb(252, 246, 249);
+    padding-top: 30px;
+}
+
+form h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.ddn{
+    margin-left: 25px;
+    padding-left: 25px;
+}
+form input[type="text"] , input[type="email"], input[type="file"] {
+    width: 90%;
+    background: none;
+    text-align: center;
+    padding: 14px 0px ;
+    outline: none;
+    color: black;
+    margin-left: 25px;
+    margin-bottom: 10px;
+ 
+}
+
+form label{
+    display: block; 
+    margin-left: 25px;
+    margin-bottom: 10px;
+
+}
+.radio-btn{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+form input[type="submit"]{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 272.5px;
+    margin-right: 272.5px;
+    padding: 7px 76px;
+    background: rgb(247, 136, 9);
+    border: solid 2ch transparent;
+    border-radius: 1ch;
+    transition: 0.25s;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+ 
+    background: rgb(21, 138, 74);
+    
+}
+
